@@ -71,9 +71,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 <div className="grid grid-cols-1">
                   <Button onClick={handleWorkScroll}>Accueil</Button>
                   <Button onClick={handleAboutScroll}>A Propos</Button>
-                  {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
-                  )}
                   {showResume && (
                     <Button
                       onClick={() =>
@@ -83,20 +80,20 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       Curriculum vitae
                     </Button>
                   )}
+                  {showBlog && (
+                    <Button onClick={() => router.push("/blog")}>Me contacter</Button>
+                  )}
+                  
 
-                  <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
-                  >
-                    Contact
-                  </Button>
+                 
                 </div>
               ) : (
                 <div className="grid grid-cols-1">
                   <Button onClick={() => router.push("/")} classes="first:ml-1">
                     Accueil
-                  </Button>
+                  </Button> 
                   {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
+                    <Button onClick={() => router.push("/blog")}>Me contacter</Button>
                   )}
                   {showResume && (
                     <Button
@@ -105,13 +102,13 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     >
                       Curriculum vitae
                     </Button>
-                  )}
 
-                  <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
-                  >
-                    Contact
-                  </Button>
+                    
+                  )}
+                 
+                  
+
+                  
                 </div>
               )}
             </Popover.Panel>
@@ -132,10 +129,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         {!isBlog ? (
           <div className="flex">
             <Button onClick={handleWorkScroll}>Accueil</Button>
-            <Button onClick={handleAboutScroll}>A Propos</Button>
-            {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
-            )}
+            <Button onClick={handleAboutScroll}>A Propos</Button> 
             {showResume && (
               <Button
                 onClick={() => router.push("/resume")}
@@ -144,10 +138,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 Curriculum vitae
               </Button>
             )}
+            {showBlog && (
+              <Button onClick={() => router.push("/blog")}>Me contacter</Button>
+            )}
+           
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
-              Contact
-            </Button>
+            
             {mounted && theme && data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -162,9 +158,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         ) : (
           <div className="flex">
             <Button onClick={() => router.push("/")}>Accueil</Button>
-            {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
-            )}
             {showResume && (
               <Button
                 onClick={() => router.push("/resume")}
@@ -173,11 +166,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 Curriculum vitae
               </Button>
             )}
+            {showBlog && (
+              <Button onClick={() => router.push("/blog")}>Me contacter</Button>
+            )}
+            
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
-              Contact
-            </Button>
-
+            
             {mounted && theme && data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
