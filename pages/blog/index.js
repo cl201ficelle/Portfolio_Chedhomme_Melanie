@@ -45,11 +45,15 @@ const Blog = ({ posts }) => {
             >
               Me contacter
             </h1>
-            <div className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
-             email : melanie.chedhomme96@gmail.com
-             LinkedIn : 
-             GitHub :  
-            </div>
+            <h2 className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
+             email : melanie.chedhomme96@gmail.com  
+            </h2>
+            <h2 className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
+             LinkedIn : https://www.linkedin.com/in/m%C3%A9lanie-c-723977255/
+            </h2>
+            <h2 className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
+             GitHub :  https://github.com/cl201ficelle
+            </h2>
           </div>
         </div>
       </>
