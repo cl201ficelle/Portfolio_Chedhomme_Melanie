@@ -18,11 +18,6 @@
           "id":"2",
           "title":"LinkedIn",
           "link":"https://www.linkedin.com/in/m%C3%A9lanie-c-723977255/"
-       },
-       {
-          "id":"5",
-          "title":"Email",
-          "link":"mailto:melanie.chedhomme96@gmail.com"
        }
     ],
     "projects":[
@@ -72,62 +67,50 @@
           "description":"Je récupére les données utilisateurs dans le JavaScript via des formulaires. Je manipule les éléments du DOM avec JavaScript. Je gére les événements utilisateurs avec JavaScript.  "
        },
        {
-        "id":"4",
-        "title":"React",
-        "description":"Je configure la navigation entre les pages de l'application avec React Router. J'initialise une application avec Create React App. Je développe des éléments de l'interface d'un site web grâce à des composants React."
-     },
-     {
-        "id":"5",
-        "title":"Développement back-end avec NodeJS",
-        "description":"J'implémenter un modèle logique de données conformément à la réglementation. Je mets en œuvre des opérations CRUD de manière sécurisée. Je stocke des données de manière sécurisée."
-     },
-     {
-        "id":"6",
-        "title":"Gestion de projet et outils de développeurs",
-        "description":"Je suis le déroulement de projet grâce à des outils de gestion de projet. Je rédige les spécifications techniques de projet web à partir de besoins fonctionnels. Je découpe les fonctionnalités en tâches pour préparer le développement. Je présente la solution technique retenue, et mets en place une méthode de veille technologique.  J'utilise Git et Github pour versionner le projet, avec Visual Studio comme environnement de développement front-end."
-     }
+          "id":"4",
+          "title":"React",
+          "description":"Je configure la navigation entre les pages de l'application avec React Router. J'initialise une application avec Create React App. Je développe des éléments de l'interface d'un site web grâce à des composants React."
+       },
+       {
+          "id":"5",
+          "title":"Développement back-end avec NodeJS",
+          "description":"J'implémenter un modèle logique de données conformément à la réglementation. Je mets en œuvre des opérations CRUD de manière sécurisée. Je stocke des données de manière sécurisée."
+       },
+       {
+          "id":"6",
+          "title":"Gestion de projet et outils de développeurs",
+          "description":"Je suis le déroulement de projet grâce à des outils de gestion de projet. Je rédige les spécifications techniques à partir de besoins fonctionnels. Je découpe les fonctionnalités en tâches pour préparer le développement. Je présente la solution technique retenue, et mets en place une méthode de veille technologique. J'utilise Git et Github pour versionner le projet, et Visual Studio."
+       }
     ],
     "aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "resume":{
-       "tagline":"👋  I'm a software engineer, product designer.",
-       "description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+       "tagline":"Je suis étudiante en développement web",
+       "description":"Certification professionnelle « Développeur intégrateur web »",
        "experiences":[
           {
              "id":"1",
-             "dates":"March 2022 - Present",
-             "type":"Full Time",
-             "position":"Frontend Engineer at X",
-             "bullets":"Bullet One, Bullet Two"
-          },
-          {
-             "id":"d495c23b-4f65-479a-9b8a-cfbc1c089725",
-             "dates":"July 2020 - March 2022",
-             "type":"Full Time",
-             "position":"Frontend Engineer at X",
-             "bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"
+             "dates":"Juillet - présent",
+             "type":"Temps plein",
+             "position":"Étudiante",
+             "bullets":"Développeur intégrateur web"
           }
        ],
        "education":{
-          "universityName":"University X",
-          "universityDate":"2016-2020",
-          "universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+          "universityName":"Université du Maine",
+          "universityDate":"2014-2019",
+          "universityPara":"Master Toxicologie Écotoxicologie"
        },
        "languages":[
           "Javascript",
           "HTML5",
-          "CSS",
-          "Python",
-          "Go"
+          "CSS"
        ],
        "frameworks":[
           "React",
-          "Typescript",
           "NodeJs"
        ],
        "others":[
-          "Figma",
-          "AdobeXD",
-          "AWS"
+          "Figma"
        ]
     }
  }
