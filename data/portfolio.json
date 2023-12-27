@@ -1,1 +1,123 @@
-{"name":"Mélanie Chedhomme","headerTaglineOne":"Bonjour","headerTaglineTwo":"Je m'appelle Mélanie Chedhomme","headerTaglineThree":"Développeur web","headerTaglineFour":"Basée en France, Sarthe.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/cl201ficelle"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/m%C3%A9lanie-c-723977255/"},{"id":"5","title":"Email","link":"mailto:melanie.chedhomme96@gmail.com"}],"projects":[{"id":"1","title":"Booki","description":"Création de la page d'accueil d'une agence de voyage avec HTML & CSS","imageSrc":"https://github.com/cl201ficelle/Booki_Chedhomme_Melanie/assets/139238877/9afdf212-1ce4-4bb7-ad44-0054241e6cb3","url":"https://github.com/cl201ficelle/Booki_Chedhomme_Melanie.git"},{"id":"2","title":"Sophie Bluel","description":"Création d'une page web dynamique avec JavaScript","imageSrc":"https://github.com/cl201ficelle/Sophie_Bluel_Chedhomme_Melanie/assets/139238877/70d39f66-0423-4a73-80f1-a303607a60f9","url":"https://github.com/cl201ficelle/Sophie_Bluel_Chedhomme_Melanie.git"},{"id":"3","title":"Kasa","description":"Création une application web de location immobilière avec React","imageSrc":"https://github.com/cl201ficelle/Kasa_Chedhomme_Melanie/assets/139238877/6c091a14-b747-4f7a-ba1a-2c5b4a8c5c8b","url":"https://github.com/cl201ficelle/Kasa_Chedhomme_Melanie.git"},{"id":"4","title":"Mon Vieux Grimoire","description":"Développement du back-end d'un site de notation de livres","imageSrc":"https://github.com/cl201ficelle/Vieux_Grimoire_Chedhomme_Melanie/assets/139238877/0a5fa73d-362a-45d7-8501-2fbf7a1a7297","url":"https://github.com/cl201ficelle/Vieux_Grimoire_Chedhomme_Melanie.git"}],"services":[{"id":"1","title":"Intégration web avec HTML - CSS","description":"J'intègre du contenu conformément à une maquette, avec HTML et CSS. J'implémente l'interface de manière responsive."},{"id":"2","title":"Gestion de projet et outils de développeurs","description":"Je suis le déroulement de projet grâce à des outils de gestion de projet. Je rédige les spécifications techniques de projet web à partir de besoins fonctionnels. Je découpe les fonctionnalités en tâches pour préparer le développement. Je présente la solution technique retenue, et mets en place une méthode de veille technologique.  J'utilise Git et Github pour versionner le projet, avec Visual Studio comme environnement de développement front-end."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+    "name":"Mélanie Chedhomme",
+    "headerTaglineOne":"Bonjour",
+    "headerTaglineTwo":"Je m'appelle Mélanie Chedhomme",
+    "headerTaglineThree":"Développeur web",
+    "headerTaglineFour":"Basée en France, Sarthe.",
+    "showCursor":true,
+    "showBlog":true,
+    "darkMode":true,
+    "showResume":true,
+    "socials":[
+       {
+          "id":"1",
+          "title":"Github",
+          "link":"https://github.com/cl201ficelle"
+       },
+       {
+          "id":"2",
+          "title":"LinkedIn",
+          "link":"https://www.linkedin.com/in/m%C3%A9lanie-c-723977255/"
+       },
+       {
+          "id":"5",
+          "title":"Email",
+          "link":"mailto:melanie.chedhomme96@gmail.com"
+       }
+    ],
+    "projects":[
+       {
+          "id":"1",
+          "title":"Booki",
+          "description":"Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
+          "imageSrc":"https://github.com/cl201ficelle/Booki_Chedhomme_Melanie/assets/139238877/9afdf212-1ce4-4bb7-ad44-0054241e6cb3",
+          "url":"https://github.com/cl201ficelle/Booki_Chedhomme_Melanie.git"
+       },
+       {
+          "id":"2",
+          "title":"Sophie Bluel",
+          "description":"Création d'une page web dynamique avec JavaScript",
+          "imageSrc":"https://github.com/cl201ficelle/Sophie_Bluel_Chedhomme_Melanie/assets/139238877/70d39f66-0423-4a73-80f1-a303607a60f9",
+          "url":"https://github.com/cl201ficelle/Sophie_Bluel_Chedhomme_Melanie.git"
+       },
+       {
+          "id":"3",
+          "title":"Kasa",
+          "description":"Création une application web de location immobilière avec React",
+          "imageSrc":"https://github.com/cl201ficelle/Kasa_Chedhomme_Melanie/assets/139238877/6c091a14-b747-4f7a-ba1a-2c5b4a8c5c8b",
+          "url":"https://github.com/cl201ficelle/Kasa_Chedhomme_Melanie.git"
+       },
+       {
+          "id":"4",
+          "title":"Mon Vieux Grimoire",
+          "description":"Développement du back-end d'un site de notation de livres",
+          "imageSrc":"https://github.com/cl201ficelle/Vieux_Grimoire_Chedhomme_Melanie/assets/139238877/0a5fa73d-362a-45d7-8501-2fbf7a1a7297",
+          "url":"https://github.com/cl201ficelle/Vieux_Grimoire_Chedhomme_Melanie.git"
+       }
+    ],
+    "services":[
+       {
+          "id":"1",
+          "title":"Intégration web avec HTML - CSS",
+          "description":"J'intègre du contenu conformément à une maquette, avec HTML et CSS. J'implémente l'interface de manière responsive."
+       },
+       {
+          "id":"2",
+          "title":"Gestion de projet et outils de développeurs",
+          "description":"Je suis le déroulement de projet grâce à des outils de gestion de projet. Je rédige les spécifications techniques de projet web à partir de besoins fonctionnels. Je découpe les fonctionnalités en tâches pour préparer le développement. Je présente la solution technique retenue, et mets en place une méthode de veille technologique.  J'utilise Git et Github pour versionner le projet, avec Visual Studio comme environnement de développement front-end."
+       },
+       {
+          "id":"3",
+          "title":"Web Design",
+          "description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+       },
+       {
+          "id":"4",
+          "title":"3D Design",
+          "description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+       }
+    ],
+    "aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "resume":{
+       "tagline":"👋  I'm a software engineer, product designer.",
+       "description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+       "experiences":[
+          {
+             "id":"1",
+             "dates":"March 2022 - Present",
+             "type":"Full Time",
+             "position":"Frontend Engineer at X",
+             "bullets":"Bullet One, Bullet Two"
+          },
+          {
+             "id":"d495c23b-4f65-479a-9b8a-cfbc1c089725",
+             "dates":"July 2020 - March 2022",
+             "type":"Full Time",
+             "position":"Frontend Engineer at X",
+             "bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"
+          }
+       ],
+       "education":{
+          "universityName":"University X",
+          "universityDate":"2016-2020",
+          "universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+       },
+       "languages":[
+          "Javascript",
+          "HTML5",
+          "CSS",
+          "Python",
+          "Go"
+       ],
+       "frameworks":[
+          "React",
+          "Typescript",
+          "NodeJs"
+       ],
+       "others":[
+          "Figma",
+          "AdobeXD",
+          "AWS"
+       ]
+    }
+ }
