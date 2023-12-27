@@ -95,23 +95,7 @@ const Blog = ({ posts }) => {
                     ></img>
                     <h2 className="mt-5 text-4xl">{post.title}</h2>
                     <p className="mt-2 opacity-50 text-lg">{post.preview}</p>
-                    <span className="text-sm mt-5 opacity-25">
-                      {ISOToDate(post.date)}
-                    </span>
-                    {process.env.NODE_ENV === "development" && mounted && (
-                      <div className="absolute top-0 right-0">
-                        <Button
-                          onClick={(e) => {
-                            deleteBlog(post.slug);
-                            e.stopPropagation();
-                          }}
-                          type={"primary"}
-                        >
-                          Delete
-                        </Button>
-                      </div>
-                    )}
-                  </div>
+                    </div>
                 ))}
             </div>
           </div>
