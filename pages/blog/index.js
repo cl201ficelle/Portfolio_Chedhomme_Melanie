@@ -1,13 +1,11 @@
 import Head from "next/head";
-import Router, { useRouter } from "next/router";
+import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { stagger } from "../../animations";
-import Button from "../../components/Button";
 import Cursor from "../../components/Cursor";
 import Header from "../../components/Header";
 import data from "../../data/portfolio.json";
-import { ISOToDate, useIsomorphicLayoutEffect } from "../../utils";
-import { getAllPosts } from "../../utils/api";
+import { useIsomorphicLayoutEffect } from "../../utils";
 const Blog = ({ posts }) => {
   const showBlog = useRef(data.showBlog);
   const text = useRef();
@@ -27,45 +25,12 @@ const Blog = ({ posts }) => {
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  const createBlog = () => {
-    if (process.env.NODE_ENV === "development") {
-      fetch("/api/blog", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }).then(() => {
-        router.reload(window.location.pathname);
-      });
-    } else {
-      alert("This thing only works in development mode.");
-    }
-  };
-
-  const deleteBlog = (slug) => {
-    if (process.env.NODE_ENV === "development") {
-      fetch("/api/blog", {
-        method: "DELETE",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          slug,
-        }),
-      }).then(() => {
-        router.reload(window.location.pathname);
-      });
-    } else {
-      alert("This thing only works in development mode.");
-    }
-  };
   return (
     showBlog.current && (
       <>
         {data.showCursor && <Cursor />}
         <Head>
-          <title>Blog</title>
+          <title>Me contacter</title>
         </Head>
         <div
           className={`container mx-auto mb-10 ${
@@ -81,22 +46,9 @@ const Blog = ({ posts }) => {
               Me contacter
             </h1>
             <div className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
-              {posts &&
-                posts.map((post) => (
-                  <div
-                    className="cursor-pointer relative"
-                    key={post.slug}
-                    onClick={() => Router.push(`/blog/${post.slug}`)}
-                  >
-                    <img
-                      className="w-full h-60 rounded-lg shadow-lg object-cover"
-                      src={post.image}
-                      alt={post.title}
-                    ></img>
-                    <h2 className="mt-5 text-4xl">{post.title}</h2>
-                    <p className="mt-2 opacity-50 text-lg">{post.preview}</p>
-                    </div>
-                ))}
+             email : melanie.chedhomme96@gmail.com
+             LinkedIn : 
+             GitHub :  
             </div>
           </div>
         </div>
@@ -105,21 +57,5 @@ const Blog = ({ posts }) => {
   );
 };
 
-export async function getStaticProps() {
-  const posts = getAllPosts([
-    "slug",
-    "title",
-    "image",
-    "preview",
-    "author",
-    "date",
-  ]);
-
-  return {
-    props: {
-      posts: [...posts],
-    },
-  };
-}
 
 export default Blog;
