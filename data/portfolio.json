@@ -63,19 +63,29 @@
        },
        {
           "id":"2",
-          "title":"Gestion de projet et outils de développeurs",
-          "description":"Je suis le déroulement de projet grâce à des outils de gestion de projet. Je rédige les spécifications techniques de projet web à partir de besoins fonctionnels. Je découpe les fonctionnalités en tâches pour préparer le développement. Je présente la solution technique retenue, et mets en place une méthode de veille technologique.  J'utilise Git et Github pour versionner le projet, avec Visual Studio comme environnement de développement front-end."
+          "title":"Optimisation et debug",
+          "description":"J'optimise les performances d’un site web. Je débugge un site web grâce aux Chrome DevTools. Je rédige un cahier de recette pour tester un site"
        },
        {
           "id":"3",
-          "title":"Web Design",
-          "description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+          "title":"Développement web avec JavaScript",
+          "description":"Je récupére les données utilisateurs dans le JavaScript via des formulaires. Je manipule les éléments du DOM avec JavaScript. Je gére les événements utilisateurs avec JavaScript.  "
        },
        {
-          "id":"4",
-          "title":"3D Design",
-          "description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
-       }
+        "id":"4",
+        "title":"React",
+        "description":"Je configure la navigation entre les pages de l'application avec React Router. J'initialise une application avec Create React App. Je développe des éléments de l'interface d'un site web grâce à des composants React."
+     },
+     {
+        "id":"5",
+        "title":"Développement back-end avec NodeJS",
+        "description":"J'implémenter un modèle logique de données conformément à la réglementation. Je mets en œuvre des opérations CRUD de manière sécurisée. Je stocke des données de manière sécurisée."
+     },
+     {
+        "id":"6",
+        "title":"Gestion de projet et outils de développeurs",
+        "description":"Je suis le déroulement de projet grâce à des outils de gestion de projet. Je rédige les spécifications techniques de projet web à partir de besoins fonctionnels. Je découpe les fonctionnalités en tâches pour préparer le développement. Je présente la solution technique retenue, et mets en place une méthode de veille technologique.  J'utilise Git et Github pour versionner le projet, avec Visual Studio comme environnement de développement front-end."
+     }
     ],
     "aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "resume":{
