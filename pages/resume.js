@@ -46,23 +46,23 @@ const Resume = () => {
               <div className="mt-2">
                 <Socials />
               </div>
-              <div className="mt-5">
-                <h1 className="text-2xl font-bold">Expérience</h1>
+              <div className="mt-10">
+                <h1 className="text-3xl font-bold">Formation en cours</h1>
 
                 {resume.experiences.map(
-                  ({ id, dates, type, position, bullets }) => (
+                  ({ id, type, dates, position, bullets }) => (
                     <ProjectResume
                       key={id}
-                      dates={dates}
                       type={type}
+                      dates={dates}
                       position={position}
                       bullets={bullets}
                     ></ProjectResume>
                   )
                 )}
               </div>
-              <div className="mt-5">
-                <h1 className="text-2xl font-bold">Formation</h1>
+              <div className="mt-10">
+                <h1 className="text-3xl font-bold">Formation initiale</h1>
                 <div className="mt-2">
                   <h2 className="text-lg">{resume.education.universityName}</h2>
                   <h3 className="text-sm opacity-75">
@@ -73,15 +73,15 @@ const Resume = () => {
                   </p>
                 </div>
               </div>
-              <div className="mt-5">
-                <h1 className="text-2xl font-bold">Compétences</h1>
+              <div className="mt-10">
+                <h1 className="text-3xl font-bold">Compétences</h1>
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
                   {resume.languages && (
                     <div className="mt-2 mob:mt-5">
                       <h2 className="text-lg">Languages</h2>
                       <ul className="list-disc">
                         {resume.languages.map((language, index) => (
-                          <li key={index} className="ml-5 py-2">
+                          <li key={index} className="ml-7 py-1">
                             {language}
                           </li>
                         ))}
@@ -94,7 +94,7 @@ const Resume = () => {
                       <h2 className="text-lg">Frameworks</h2>
                       <ul className="list-disc">
                         {resume.frameworks.map((framework, index) => (
-                          <li key={index} className="ml-5 py-2">
+                          <li key={index} className="ml-7 py-1">
                             {framework}
                           </li>
                         ))}
@@ -107,7 +107,7 @@ const Resume = () => {
                       <h2 className="text-lg">Autres</h2>
                       <ul className="list-disc">
                         {resume.others.map((other, index) => (
-                          <li key={index} className="ml-5 py-2">
+                          <li key={index} className="ml-7 py-1">
                             {other}
                           </li>
                         ))}

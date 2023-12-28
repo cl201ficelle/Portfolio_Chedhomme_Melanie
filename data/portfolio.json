@@ -1,6 +1,6 @@
 {
     "name":"Mélanie Chedhomme",
-    "headerTaglineOne":"Bonjour",
+    "headerTaglineOne":"Bienvenue",
     "headerTaglineTwo":"Je m'appelle Mélanie Chedhomme",
     "headerTaglineThree":"Développeur web",
     "headerTaglineFour":"Basée en France, Sarthe.",
@@ -89,15 +89,15 @@
        "experiences":[
           {
              "id":"1",
-             "dates":"Juillet - présent",
-             "type":"Temps plein",
-             "position":"Étudiante",
+             "dates":"Juillet 2023 - présent",
+             "type":"Formation",
+             "position":"OpenClassRooms",
              "bullets":"Développeur intégrateur web"
           }
        ],
        "education":{
           "universityName":"Université du Maine",
-          "universityDate":"2014-2019",
+          "universityDate":"2014-2020",
           "universityPara":"Master Toxicologie Écotoxicologie"
        },
        "languages":[
