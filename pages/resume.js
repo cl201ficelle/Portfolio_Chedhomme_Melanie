@@ -29,6 +29,8 @@ const Resume = () => {
           data.showCursor && "cursor-none"
         }`}
       >
+        <div className="gradient-circle"></div>
+      
         <Header isBlog />
         {mount && (
           <div className="mt-12 w-full flex flex-col items-center">
@@ -39,7 +41,7 @@ const Resume = () => {
             >
               <h1 className="text-4xl font-bold">{name}</h1>
               <h2 className="text-xl mt-5">{resume.tagline}</h2>
-              <h2 className="w-4/5 text-xl mt-5 opacity-50">
+              <h2 className="w-4/5 text-xl mt-5 opacity-70">
                 {resume.description}
               </h2>
               <div className="mt-2">
@@ -67,7 +69,7 @@ const Resume = () => {
                   <h3 className="text-sm opacity-75">
                     {resume.education.universityDate}
                   </h3>
-                  <p className="text-sm mt-2 opacity-50">
+                  <p className="text-sm mt-2 opacity-75">
                     {resume.education.universityPara}
                   </p>
                 </div>

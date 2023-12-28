@@ -24,15 +24,15 @@ const Cursor = () => {
         <CustomCursor
           targets={[".link"]}
           customClass="custom-cursor"
-          dimensions={30}
+          dimensions={20}
           fill={getCusomColor()}
           smoothness={{
             movement: 0.2,
             scale: 0.1,
-            opacity: 0.2,
+            opacity: 1,
           }}
-          targetOpacity={0.5}
-          targetScale={2}
+          targetOpacity={1}
+          targetScale={1.5}
         />
       )}
     </>
