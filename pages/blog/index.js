@@ -6,6 +6,8 @@ import Cursor from "../../components/Cursor";
 import Header from "../../components/Header";
 import data from "../../data/portfolio.json";
 import { useIsomorphicLayoutEffect } from "../../utils";
+import Socials from "../../components/Socials";
+
 const Blog = ({ posts }) => {
   const showBlog = useRef(data.showBlog);
   const text = useRef();
@@ -46,14 +48,9 @@ const Blog = ({ posts }) => {
               Me contacter
             </h1>
             <h2 className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
-             email : melanie.chedhomme96@gmail.com  
+             melanie.chedhomme96@gmail.com  
             </h2>
-            <h2 className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
-             LinkedIn : https://www.linkedin.com/in/m%C3%A9lanie-c-723977255/
-            </h2>
-            <h2 className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
-             GitHub :  https://github.com/cl201ficelle
-            </h2>
+            <Socials className="mt-2 laptop:mt-5" />
           </div>
         </div>
       </>
