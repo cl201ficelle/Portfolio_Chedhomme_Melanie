@@ -31,6 +31,7 @@ const Blog = ({ posts }) => {
     showBlog.current && (
       <>
         {data.showCursor && <Cursor />}
+        <div className="gradient-circle"></div>
         <Head>
           <title>Me contacter</title>
         </Head>
@@ -39,7 +40,7 @@ const Blog = ({ posts }) => {
             data.showCursor && "cursor-none"
           }`}
         >
-          <div className="gradient-circle"></div>
+          
           <Header isBlog={true}></Header>
           <div className="mt-10">
             <h1
@@ -48,7 +49,7 @@ const Blog = ({ posts }) => {
             >
               Me contacter
             </h1>
-            <h2 className="mt-10 text-2xl ml-3">
+            <h2 className="mt-10 text-2xl ml-3" >
              melanie.chedhomme96@gmail.com  
             </h2>
             <Socials className="mt-2 laptop:mt-5 ml-1" />

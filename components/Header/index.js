@@ -73,9 +73,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   <Button onClick={handleAboutScroll}>A Propos</Button>
                   {showResume && (
                     <Button
-                      onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
-                      }
                     >
                       Curriculum vitae
                     </Button>
