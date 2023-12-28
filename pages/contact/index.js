@@ -47,7 +47,7 @@ const Blog = ({ posts }) => {
             >
               Me contacter
             </h1>
-            <h2 className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
+            <h2 className="mt-10 text-2xl">
              melanie.chedhomme96@gmail.com  
             </h2>
             <Socials className="mt-2 laptop:mt-5" />
