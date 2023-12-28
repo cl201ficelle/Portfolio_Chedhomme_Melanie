@@ -81,7 +81,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     </Button>
                   )}
                   {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Me contacter</Button>
+                    <Button onClick={() => router.push("/contact")}>Me contacter</Button>
                   )}
                   
 
@@ -93,7 +93,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     Accueil
                   </Button> 
                   {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Me contacter</Button>
+                    <Button onClick={() => router.push("/contact")}>Me contacter</Button>
                   )}
                   {showResume && (
                     <Button
@@ -105,11 +105,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
 
                     
                   )}
-                 
-                  
-
-                  
-                </div>
+              </div>
               )}
             </Popover.Panel>
           </>
@@ -139,11 +135,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
             {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Me contacter</Button>
-            )}
-           
-
-            
+              <Button onClick={() => router.push("/contact")}>Me contacter</Button>
+            )}         
             {mounted && theme && data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -167,7 +160,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
             {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Me contacter</Button>
+              <Button onClick={() => router.push("/contact")}>Me contacter</Button>
             )}
             
 

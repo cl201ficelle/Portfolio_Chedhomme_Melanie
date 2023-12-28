@@ -4,7 +4,6 @@ import Cursor from "../components/Cursor";
 import Header from "../components/Header";
 import ProjectResume from "../components/ProjectResume";
 import Socials from "../components/Socials";
-import Button from "../components/Button";
 import { useTheme } from "next-themes";
 // Data
 import { name, showResume } from "../data/portfolio.json";
@@ -32,13 +31,13 @@ const Resume = () => {
       >
         <Header isBlog />
         {mount && (
-          <div className="mt-10 w-full flex flex-col items-center">
+          <div className="mt-12 w-full flex flex-col items-center">
             <div
               className={`w-full ${
                 mount && theme.theme === "dark" ? "bg-slate-800" : "bg-gray-50"
               } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
             >
-              <h1 className="text-3xl font-bold">{name}</h1>
+              <h1 className="text-4xl font-bold">{name}</h1>
               <h2 className="text-xl mt-5">{resume.tagline}</h2>
               <h2 className="w-4/5 text-xl mt-5 opacity-50">
                 {resume.description}
@@ -46,7 +45,7 @@ const Resume = () => {
               <div className="mt-2">
                 <Socials />
               </div>
-              <div className="mt-10">
+              <div className="mt-14">
                 <h1 className="text-3xl font-bold">Formation en cours</h1>
 
                 {resume.experiences.map(
@@ -61,7 +60,7 @@ const Resume = () => {
                   )
                 )}
               </div>
-              <div className="mt-10">
+              <div className="mt-14">
                 <h1 className="text-3xl font-bold">Formation initiale</h1>
                 <div className="mt-2">
                   <h2 className="text-lg">{resume.education.universityName}</h2>
@@ -73,7 +72,7 @@ const Resume = () => {
                   </p>
                 </div>
               </div>
-              <div className="mt-10">
+              <div className="mt-14">
                 <h1 className="text-3xl font-bold">Compétences</h1>
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
                   {resume.languages && (
