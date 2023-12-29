@@ -55,6 +55,13 @@
           "description":"Débogage et optimisation d'un site de photographe",
           "imageSrc":"https://github.com/cl201ficelle/Nina_Carducci_Chedhomme_Melanie/assets/139238877/c984f5fa-9dfd-4a88-92fb-431ccd3a02c6",
           "url":"https://github.com/cl201ficelle/Nina_Carducci_Chedhomme_Melanie.git"
+       },
+       {
+          "id":"6",
+          "title":"Qwenta",
+          "description":"Planifiez le développement du site de votre client",
+          "imageSrc":"",
+          "url":"https://github.com/cl201ficelle/Nina_Carducci_Chedhomme_Melanie.git"
        }
     ],
     "services":[
