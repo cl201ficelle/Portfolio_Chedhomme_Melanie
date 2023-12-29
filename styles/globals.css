@@ -1,17 +1,19 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@700&display=swap');
+/* Importez la police Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@700&display=swap');
+
+/* Utilisez Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import "./markdown.css";
 
-* {
-  font-family: "quicksand";
+/* Appliquez la police Quicksand au texte global */
+body {
+  font-family: 'Quicksand', sans-serif;
 }
 
-body {
-  @apply dark:bg-black dark:text-white;
-}
+
 
 .gradient-circle {
   position: absolute;
