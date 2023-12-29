@@ -32,7 +32,7 @@ const Cursor = () => {
             opacity: 1,
           }}
           targetOpacity={1}
-          targetScale={1.5}
+          targetScale={1}
         />
       )}
     </>
