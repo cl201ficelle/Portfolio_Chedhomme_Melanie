@@ -6,7 +6,6 @@
     "start": "next start",
     "dev": "next dev",
     "build": "next build",
-    "vercel-build" : "next build",
     "lint": "next lint"
   },
   "dependencies": {
