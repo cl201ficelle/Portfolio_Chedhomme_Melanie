@@ -94,7 +94,7 @@ export default function Home() {
         <div className="mt-16 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-5xl text-bold">Projets</h1>
 
-          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
+          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-10">
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
@@ -107,9 +107,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-16 laptop:mt-30 p-2 laptop:p-0">
+        <div className="mt-16 laptop:mt-32 p-2 laptop:p-0">
           <h1 className="text-5xl text-bold">Compétences</h1>
-          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
+          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-10">
             {data.services.map((service, index) => (
               <ServiceCard
                 key={index}
@@ -121,7 +121,7 @@ export default function Home() {
         </div>      
         <div className="mt-16 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="text-5xl text-bold">A Propos</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
+          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full text-justify">
             {data.aboutpara}
           </p>
         </div>
