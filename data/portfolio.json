@@ -2,7 +2,7 @@
     "name":"Mélanie Chedhomme",
     "headerTaglineOne":"Bienvenue",
     "headerTaglineTwo":"Je m'appelle Mélanie Chedhomme",
-    "headerTaglineThree":"Développeur web",
+    "headerTaglineThree":"Développeuse web",
     "headerTaglineFour":"Basée en France, Sarthe.",
     "showCursor":true,
     "showBlog":true,
@@ -59,7 +59,7 @@
        {
           "id":"6",
           "title":"Qwenta",
-          "description":"Planifiez le développement du site de votre client",
+          "description":"Planification du développement d'un site web",
           "imageSrc":"https://github.com/cl201ficelle/Qwenta_Chedhomme_Melanie/assets/139238877/c2f27a1e-437a-4d62-a9b1-83b93754c020",
           "url":"https://github.com/cl201ficelle/Qwenta_Chedhomme_Melanie.git"
        }

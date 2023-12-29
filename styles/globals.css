@@ -22,12 +22,12 @@ body {
   top: -30px;
   height: 40px;
   width: 100vw;
-  opacity: 0.5;
+  opacity: 1;
   filter: blur(40px);
   background: radial-gradient(
     circle,
     rgba(248, 107, 223, 1) 0%,
-    rgba(107, 107, 248, 0.8) 100%
+    rgba(117, 43, 110, 0.8) 100%
   );
 }
 .gradient-circle-bottom {
@@ -42,7 +42,7 @@ body {
   background: radial-gradient(
     circle,
     rgba(248, 107, 223, 1) 0%,
-    rgba(107, 107, 248, 0.8) 100%
+    rgba(117, 43, 110, 0.8) 100%
   );
 }
 
