@@ -25,7 +25,7 @@ const Resume = () => {
     <>
       {data.showCursor && <Cursor />}
       <div className="gradient-circle"></div>
-      <div className="gradient-circle-bottom"></div>
+      
       <div
         className={`container mx-auto mb-10 ${
           data.showCursor && "cursor-none"

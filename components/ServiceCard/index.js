@@ -15,7 +15,7 @@ const ServiceCard = ({ name, description }) => {
       } hover:scale-105 link`}
     >
       <h1 className="text-3xl">{name ? name : "Heading"}</h1>
-      <p className="mt-5 opacity-40 text-xl text-justify" >
+      <p className="mt-5 opacity-60 text-xl text-justify" >
         {description
           ? description
           : ""}

@@ -8,7 +8,7 @@ const Footer = ({}) => {
         <div>
           <h1 className="text-5xl text-bold">Contact</h1>
           <div className="mt-10">
-            <h1 className="text-1xl">
+            <h1 className="text-xl">
             melanie.chedhomme96@gmail.com  
             </h1>
             <div className="mt-5">

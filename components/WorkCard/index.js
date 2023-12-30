@@ -1,13 +1,13 @@
 import React from "react";
 
-const WorkCard = ({ img, name, description, onClick }) => {
+const WorkCard = ({ img, name, description, skills, onClick }) => {
   return (
     <div
-      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
+      className="shadow-xl shadow-zinc-600/60 overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
       onClick={onClick}
     >
       <div
-        className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
+        className=" relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
         style={{ height: "600px" }}
       >
         <img
@@ -16,12 +16,15 @@ const WorkCard = ({ img, name, description, onClick }) => {
           src={img}
         ></img>
       </div>
-      <h1 className="mt-1 text-3xl font-medium">
+      <h1 className="mt-8 text-3xl font-medium">
         {name ? name : "Project Name"}
       </h1>
-      <h2 className="text-xl opacity-50">
+      <h2 className="mt-4 text-xl opacity-80">
         {description ? description : "Description"}
       </h2>
+      <h3 className=" mt-4 text-xl opacity-60">
+        {skills ? skills : "Skills"}
+      </h3>
     </div>
   );
 };
