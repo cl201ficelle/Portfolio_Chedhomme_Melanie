@@ -19,7 +19,7 @@ const WorkCard = ({ img, name, description, skills, onClick }) => {
       <h1 className="mt-8 text-3xl font-medium">
         {name ? name : "Project Name"}
       </h1>
-      <h2 className="mt-4 text-xl opacity-80">
+      <h2 className="mt-4 text-2xl opacity-80">
         {description ? description : "Description"}
       </h2>
       <h3 className=" mt-4 text-xl opacity-60">
