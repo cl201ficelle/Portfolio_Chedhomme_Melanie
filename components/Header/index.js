@@ -72,10 +72,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   <Button onClick={handleWorkScroll}>Accueil</Button>
                   <Button onClick={handleAboutScroll}>A Propos</Button>
                   {showResume && (
-                    <Button
-                    >
-                      Curriculum vitae
-                    </Button>
+                   <Button
+                onClick={() => router.push("/resume")}
+                classes="first:ml-1"
+              >
+                Curriculum vitae
+              </Button>
                   )}
                   {showBlog && (
                     <Button onClick={() => router.push("/contact")}>Me contacter</Button>
@@ -94,11 +96,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
                   {showResume && (
                     <Button
-                      onClick={() => router.push("/resume")}
-                      classes="first:ml-1"
-                    >
-                      Curriculum vitae
-                    </Button>
+                    onClick={() => router.push("/resume")}
+                    classes="first:ml-1"
+                  >
+                    Curriculum vitae
+                  </Button>
 
                     
                   )}
