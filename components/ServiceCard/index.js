@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-
+// Compétences
 const ServiceCard = ({ name, description }) => {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState();

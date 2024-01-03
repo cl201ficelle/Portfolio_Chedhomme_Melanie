@@ -1,5 +1,5 @@
 import React from "react";
-
+// projets avec image, nom, description, skill et lien vers github
 const WorkCard = ({ img, name, description, skills, onClick }) => {
   return (
     <div

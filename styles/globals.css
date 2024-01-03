@@ -1,14 +1,14 @@
 
-/* Importez la police Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@700&display=swap');
+/* importation de la police Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700');
 
-/* Utilisez Tailwind CSS */
+/*Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import "./markdown.css";
 
-/* Appliquez la police Quicksand au texte global */
+/* Quicksand texte global */
 body {
   font-family: 'Quicksand', sans-serif;
 }

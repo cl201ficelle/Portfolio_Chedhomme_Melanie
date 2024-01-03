@@ -110,9 +110,8 @@
           {
              "id":"1",
              "dates":"Juillet 2023 - présent",
-             "type":"Formation",
              "position":"OpenClassRooms",
-             "bullets":"Développeur intégrateur web"
+             "formation":"Développeur intégrateur web"
           }
        ],
        "education":{

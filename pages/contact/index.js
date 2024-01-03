@@ -7,7 +7,7 @@ import Header from "../../components/Header";
 import data from "../../data/portfolio.json";
 import { useIsomorphicLayoutEffect } from "../../utils";
 import Socials from "../../components/Socials";
-
+// Page contact
 const Blog = ({ posts }) => {
   const showBlog = useRef(data.showBlog);
   const text = useRef();

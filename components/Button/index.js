@@ -1,9 +1,11 @@
 import React from "react";
 import { useTheme } from "next-themes";
 import data from "../../data/portfolio.json";
-
+// composant bouton
 const Button = ({ children, type, onClick, classes }) => {
+  // thème actuel
   const { theme } = useTheme();
+  // bouton type primary
   if (type === "primary") {
     return (
       <button
@@ -19,6 +21,7 @@ const Button = ({ children, type, onClick, classes }) => {
       </button>
     );
   }
+  // code pour autre bouton
   return (
     <button
       onClick={onClick}
