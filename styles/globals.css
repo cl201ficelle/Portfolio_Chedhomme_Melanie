@@ -1,6 +1,8 @@
 
 /* importation de la police Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 
 /*Tailwind CSS */
 @tailwind base;
@@ -10,7 +12,7 @@
 
 /* Quicksand texte global */
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
