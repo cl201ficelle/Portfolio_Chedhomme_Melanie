@@ -81,7 +81,7 @@ const Resume = () => {
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
                   {resume.languages && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Languages</h2>
+                      <h2 className="text-lg">Langages</h2>
                       <ul className="list-disc">
                         {resume.languages.map((language, index) => (
                           <li key={index} className="ml-7 py-1">

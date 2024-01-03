@@ -5,7 +5,7 @@ const ProjectResume = ({ dates, position, formation }) => {
   return (
     <div className="mt-5 w-full">
       <div className="text-lg w-2/5">
-        <h2 className="text-lg font-bold">{position}</h2>
+        <h2 className="text-lg">{position}</h2>
         <h2 className="text-sm opacity-75">{dates}</h2>
       </div>
       <div className="w-3/5">
