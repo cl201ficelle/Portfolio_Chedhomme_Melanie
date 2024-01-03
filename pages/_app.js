@@ -1,17 +1,18 @@
-// pages/_app.js
+import "../styles/globals.css";
 import { ThemeProvider } from "next-themes";
-import '../styles/globals.css';
-
+import {Quicksand} from '@next/font/google'
+const quicksand = Quicksand ({
+  subsets:['latin'],
+  weight: ['300','400','500','600','700']
+})
+// application 
 const App = ({ Component, pageProps }) => {
   return (
+    <main className={quicksand.className}>
     <ThemeProvider>
-      <style jsx global>{`
-        html {
-          font-family: 'Quicksand', sans-serif; 
-        }
-      `}</style>
       <Component {...pageProps} />
     </ThemeProvider>
+    </main>
   );
 };
 

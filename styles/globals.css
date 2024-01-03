@@ -9,7 +9,9 @@
 @import "./markdown.css";
 
 /* Quicksand texte global */
-
+body {
+  font-family: 'Quicksand', sans-serif;
+}
 
 
 
