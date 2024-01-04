@@ -35,7 +35,7 @@
           "description":"Création d'une page web dynamique",
           "imageSrc":"https://github.com/cl201ficelle/Sophie_Bluel_Chedhomme_Melanie/assets/139238877/266e2c3d-4022-4759-bb76-377383f75c0a",
           "url":"https://github.com/cl201ficelle/Sophie_Bluel_Chedhomme_Melanie.git",
-          "skills":"JavaScript, manipulation DOM, formulaire, évènements utilisateurs..."
+          "skills":"JavaScript, manipulation DOM, formulaires, évènements utilisateurs..."
        },
        {
           "id":"3",
@@ -51,7 +51,7 @@
           "description":"Développement du back-end d'un site de notation de livres",
           "imageSrc":"https://github.com/cl201ficelle/Vieux_Grimoire_Chedhomme_Melanie/assets/139238877/f37f3059-a714-4c07-9d14-399d39f8556c",
           "url":"https://github.com/cl201ficelle/Vieux_Grimoire_Chedhomme_Melanie.git",
-          "skills":"NodeJS, Respect règlementation, opérations CRUD et stockage de données sécurisées"
+          "skills":"NodeJS, respect règlementation, opérations CRUD et stockage de données sécurisées"
        },
        {
           "id":"5",
@@ -74,7 +74,7 @@
        {
           "id":"1",
           "title":"Intégration web avec HTML - CSS",
-          "description":"J'intègre du contenu conformément à une maquette, avec HTML et CSS. J'implémente l'interface de manière responsive."
+          "description":"Je sais intégrer du contenu conformément à une maquette, avec HTML et CSS. J'implémente l'interface de manière responsive."
        },
        {
           "id":"2",

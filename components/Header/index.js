@@ -1,3 +1,4 @@
+// bibliothèque menu déroulant
 import { Popover } from "@headlessui/react";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
@@ -5,7 +6,7 @@ import React, { useEffect, useState } from "react";
 import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
-
+// barre nav réactive router Next
 const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
@@ -16,7 +17,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   useEffect(() => {
     setMounted(true);
   }, []);
-
+// popover tablette et mobile
   return (
     <>
       <Popover className="block tablet:hidden mt-5">
@@ -123,7 +124,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         </h1>
         {!isBlog ? (
           <div className="flex">
-            <Button onClick={handleWorkScroll}>Accueil</Button>
+            <Button onClick={handleWorkScroll}>Projets</Button>
             <Button onClick={handleAboutScroll}>A Propos</Button> 
             {showResume && (
               <Button
