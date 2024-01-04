@@ -12,7 +12,7 @@ const Button = ({ children, type, onClick, classes }) => {
       className={`laptop:text-lg tablet:text-base p-1 laptop:p-2 m-1 laptop:m-2 rounded-lg flex items-center transition-all ease-out duration-300 ${
         theme === "dark"
           ? "hover:bg-zinc-600 text-white"
-          : "hover:bg-rose-300"
+          : "hover:bg-zinc-200"
       } hover:scale-105 active:scale-100  tablet:first:ml-0  ${
         data.showCursor && "cursor-none"
       } ${classes} link`}

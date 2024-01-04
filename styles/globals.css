@@ -22,8 +22,8 @@ body {
   filter: blur(40px);
   background: radial-gradient(
     circle,
-    rgb(157, 42, 170) 0%,
-    rgba(222, 35, 101, 0.8) 100%
+    rgb(145, 67, 153) 0%,
+    rgb(250, 176, 66) 100%
   );
 }
 .gradient-circle-bottom {
@@ -37,8 +37,8 @@ body {
   filter: blur(40px);
   background: radial-gradient(
     circle,
-    rgb(239, 121, 217) 0%,
-    rgba(117, 43, 110, 0.8) 100%
+    rgb(145, 67, 153) 0%,
+    rgb(250, 176, 66) 100%
   );
 }
 

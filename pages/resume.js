@@ -38,7 +38,7 @@ const Resume = () => {
           <div className="mt-12 w-full flex flex-col items-center">
             <div
               className={`w-full ${
-                mount && theme.theme === "dark" ? "bg-neutral-800" : "bg-pink-50"
+                mount && theme.theme === "dark" ? "bg-neutral-800" : "bg-zinc-100"
               } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
             >
               <h1 className="text-4xl font-bold">{name}</h1>
