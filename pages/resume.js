@@ -67,21 +67,21 @@ const Resume = () => {
               <div className="mt-14">
                 <h1 className="text-3xl font-bold">Formation initiale</h1>
                 <div className="mt-2">
-                  <h2 className="text-lg">{resume.education.universityName}</h2>
-                  <h3 className="text-sm opacity-75">
+                  <h2 className="text-xl">{resume.education.universityName}</h2>
+                  <h3 className="text-lg opacity-75">
                     {resume.education.universityDate}
                   </h3>
-                  <p className="text-sm mt-2 opacity-75">
+                  <p className="text-lg mt-2 opacity-75">
                     {resume.education.universityPara}
                   </p>
                 </div>
               </div>
               <div className="mt-14">
                 <h1 className="text-3xl font-bold">Compétences</h1>
-                <div className="flex mob:flex-col desktop:flex-row justify-between">
+                <div className="flex mob:flex-col desktop:flex-row justify-around">
                   {resume.languages && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Langages</h2>
+                      <h2 className="text-xl">Langages</h2>
                       <ul className="list-disc">
                         {resume.languages.map((language, index) => (
                           <li key={index} className="ml-7 py-1">
@@ -94,7 +94,7 @@ const Resume = () => {
 
                   {resume.frameworks && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Frameworks</h2>
+                      <h2 className="text-xl">Frameworks</h2>
                       <ul className="list-disc">
                         {resume.frameworks.map((framework, index) => (
                           <li key={index} className="ml-7 py-1">
@@ -107,7 +107,7 @@ const Resume = () => {
 
                   {resume.others && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Autres</h2>
+                      <h2 className="text-xl">Autres</h2>
                       <ul className="list-disc">
                         {resume.others.map((other, index) => (
                           <li key={index} className="ml-7 py-1">

@@ -1,19 +1,15 @@
-
 /* importation de la police Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700');
 
 /*Tailwind CSS */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import "./markdown.css";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 /* Quicksand texte global */
 body {
   font-family: 'Quicksand', sans-serif;
 }
-
-
 
 .gradient-circle {
   position: absolute;
