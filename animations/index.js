@@ -1,5 +1,6 @@
+// bibliothèque GSAP 
 import gsap, { Power3 } from "gsap";
-
+// effet décalage 
 export const stagger = (target, fromvVars, toVars) => {
   return gsap.fromTo(
     target,

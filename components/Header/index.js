@@ -7,7 +7,7 @@ import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
 // barre nav réactive router Next
-const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
+const Header = ({ handleWorkScroll, handleSkillsScroll, handleAboutScroll, isBlog }) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -70,8 +70,10 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             >
               {!isBlog ? (
                 <div className="grid grid-cols-1">
-                  <Button onClick={handleWorkScroll}>Accueil</Button>
+                  <Button onClick={handleWorkScroll}>Projets</Button>
+                  <Button onClick={handleSkillsScroll}>Compétences</Button>
                   <Button onClick={handleAboutScroll}>A Propos</Button>
+                  
                   {showResume && (
                    <Button
                 onClick={() => router.push("/resume")}
@@ -125,6 +127,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         {!isBlog ? (
           <div className="flex">
             <Button onClick={handleWorkScroll}>Projets</Button>
+            <Button onClick={handleSkillsScroll}>Compétences</Button>
             <Button onClick={handleAboutScroll}>A Propos</Button> 
             {showResume && (
               <Button

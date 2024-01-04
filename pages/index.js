@@ -15,6 +15,7 @@ import data from "../data/portfolio.json";
 export default function Home() {
   // Ref
   const workRef = useRef();
+  const skillsRef = useRef();
   const aboutRef = useRef();
   const textOne = useRef();
   const textTwo = useRef();
@@ -25,6 +26,14 @@ export default function Home() {
   const handleWorkScroll = () => {
     window.scrollTo({
       top: workRef.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const handleSkillsScroll = () => {
+    window.scrollTo({
+      top: skillsRef.current.offsetTop,
       left: 0,
       behavior: "smooth",
     });
@@ -59,7 +68,9 @@ export default function Home() {
       <div className="container mx-auto mb-10">
         <Header
           handleWorkScroll={handleWorkScroll}
+          handleSkillsScroll={handleSkillsScroll}
           handleAboutScroll={handleAboutScroll}
+
         />
         <div className="laptop:mt-20 mt-10">
           <div className="mt-5">
@@ -108,7 +119,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-16 laptop:mt-32 p-2 laptop:p-0">
+        <div className="mt-16 laptop:mt-32 p-2 laptop:p-0" ref={skillsRef}>
           <h1 className="text-5xl text-bold">Compétences</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-10">
             {data.services.map((service, index) => (
