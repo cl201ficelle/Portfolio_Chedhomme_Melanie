@@ -94,12 +94,12 @@
        {
           "id":"5",
           "title":"Développement back-end avec NodeJS",
-          "description":"J'implémenter un modèle logique de données conformément à la réglementation. Je mets en œuvre des opérations CRUD de manière sécurisée. Je stocke des données de manière sécurisée."
+          "description":"J'implémente un modèle logique de données conformément à la réglementation. Je mets en œuvre des opérations CRUD de manière sécurisée. Je stocke des données de manière sécurisée."
        },
        {
           "id":"6",
           "title":"Gestion de projet et outils de développeurs",
-          "description":"Je suis le déroulement de projet grâce à des outils de gestion de projet. Je rédige les spécifications techniques à partir de besoins fonctionnels. Je découpe les fonctionnalités en tâches pour préparer le développement. Je présente la solution technique retenue, et mets en place une méthode de veille technologique. J'utilise Git et Github pour versionner le projet, et Visual Studio."
+          "description":"Je suis le déroulement de projet grâce à des outils de gestion de projet. Je rédige les spécifications techniques à partir de besoins fonctionnels. Je découpe les fonctionnalités en tâches pour préparer le développement. Je présente la solution technique, et peux mettre en place une méthode de veille technologique. J'utilise Git et Github pour versionner le projet, et Visual Studio."
        }
     ],
     "aboutpara":"Après avoir obtenu un Master en Biologie, j'ai travaillé quelques temps en laboratoire. J'ai ensuite décidé de faire une formation de développeur web, afin d'acquérir les bases du métier. Aillant toujours été intéressée par les sciences et l'informatique, cette formation me permet d'avoir des compétences solides dans ce domaine, que je souhaite compléter et renforcer par la suite.",
