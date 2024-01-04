@@ -110,14 +110,14 @@
           {
              "id":"1",
              "dates":"Juillet 2023 - présent",
-             "position":"OpenClassRooms",
-             "formation":"Développeur intégrateur web"
+             "position":"Développeur intégrateur web",
+             "formation":"OpenClassRooms"
           }
        ],
        "education":{
-          "universityName":"Université du Maine",
+          "universityName":"Master Toxicologie Écotoxicologie",
           "universityDate":"2014-2020",
-          "universityPara":"Master Toxicologie Écotoxicologie"
+          "universityPara":"Université du Maine"
        },
        "languages":[
           "Javascript",
