@@ -7,6 +7,7 @@ import Header from "../../components/Header";
 import data from "../../data/portfolio.json";
 import { useIsomorphicLayoutEffect } from "../../utils";
 import Socials from "../../components/Socials";
+import Button from "../../components/Button";
 // Page contact
 const Blog = ({ posts }) => {
   const showBlog = useRef(data.showBlog);
@@ -49,9 +50,11 @@ const Blog = ({ posts }) => {
             >
               Me contacter
             </h1>
-            <h2 className="mt-10 text-2xl ml-3" >
-             melanie.chedhomme96@gmail.com  
-            </h2>
+            <Button
+                    onClick={() => window.open("mailto:melanie.chedhomme96@gmail.com")}
+                  >
+                  melanie.chedhomme96@gmail.com  
+                  </Button>
             <Socials className="mt-2 laptop:mt-5 ml-1" />
           </div>
         </div>

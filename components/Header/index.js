@@ -39,6 +39,7 @@ const Header = ({ handleWorkScroll, handleSkillsScroll, handleAboutScroll, isBlo
                     }
                   >
                     <img
+                      alt="dark/light theme"
                       className="h-6"
                       src={`/images/${
                         theme === "dark" ? "moon.svg" : "sun.svg"
@@ -49,6 +50,7 @@ const Header = ({ handleWorkScroll, handleSkillsScroll, handleAboutScroll, isBlo
 
                 <Popover.Button>
                   <img
+                    alt="dark/light theme"
                     className="h-5"
                     src={`/images/${
                       !open
@@ -145,6 +147,7 @@ const Header = ({ handleWorkScroll, handleSkillsScroll, handleAboutScroll, isBlo
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               >
                 <img
+                  alt="dark/light theme"
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 ></img>
@@ -173,6 +176,7 @@ const Header = ({ handleWorkScroll, handleSkillsScroll, handleAboutScroll, isBlo
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               >
                 <img
+                  alt="dark/light theme"
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 ></img>

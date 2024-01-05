@@ -1,5 +1,6 @@
 import React from "react";
 import Socials from "../Socials";
+import Button from "../Button";
 
 const Footer = ({}) => {
   return (
@@ -8,9 +9,11 @@ const Footer = ({}) => {
         <div>
           <h1 className="text-5xl text-bold">Contact</h1>
           <div className="mt-10">
-            <h1 className="text-xl">
-            melanie.chedhomme96@gmail.com  
-            </h1>
+          <Button
+                    onClick={() => window.open("mailto:melanie.chedhomme96@gmail.com")}
+                  >
+                  melanie.chedhomme96@gmail.com  
+                  </Button>
             <div className="mt-5">
               <Socials />
             </div>
