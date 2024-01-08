@@ -9,6 +9,7 @@
 /* Quicksand texte global */
 body {
   font-family: 'Quicksand', sans-serif;
+  cursor: default;
 }
 
 .gradient-circle {
@@ -41,4 +42,5 @@ body {
     rgb(96, 77, 101) 0%
   );
 }
+
 

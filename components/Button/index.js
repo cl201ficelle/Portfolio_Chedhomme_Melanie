@@ -14,7 +14,7 @@ const Button = ({ children, type, onClick, classes }) => {
           ? "hover:bg-zinc-600 text-white"
           : "hover:bg-zinc-200"
       } hover:scale-105 active:scale-100  tablet:first:ml-0  ${
-        data.showCursor && "cursor-none"
+        data.showCursor 
       } ${classes} link`}
     >
       {children}
